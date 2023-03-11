@@ -1,18 +1,20 @@
 
 
-function setup() 
-{
-  createCanvas(500,700);
+function preload(){
+
+}
+
+function setup() {
+  createCanvas(500,500);
 
   
 }
 
-function draw() 
-{
+function draw() {
   background(51);
  
   
 
  
-   
+   drawSprites()
 }
